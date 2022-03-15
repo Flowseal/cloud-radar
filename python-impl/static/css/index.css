@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+canvas {
+    z-index: 2;
+}
+
+#notPlaying {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: white;
+    z-index: 3;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    font-family: monospace;
+}
